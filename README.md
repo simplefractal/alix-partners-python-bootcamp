@@ -35,3 +35,15 @@ No prior programming experience is required.
     - Reading in CSV file into Python data structures
     - Dealing with unclean data
     - Applying techniques to answer questions an analyst might have
+
+
+# Why Python over Excel?
+- Repeatability: You can rerun a Python script consistently whereas Excel is more brittle to data updates.
+- Transparency: Code is transparent and detailed whereas Excel often loses the audit trail.
+- Scalability: size of data has changed drastically in the last couple of decades and Excel has trouble keeping up.
+- Collaboration: Python can leverage git version control whereas Excel versioning easily gets messy.
+
+# Why Python over SQL?
+- Versatility: Python can use web data, text data, csv data, etc. whereas SQL is limited to SQL databases.
+- Control: Python controls how to manipulate data whereas SQL controls what data to retrieve/update.
+- Extensibility: Python has a wide range of libraries whereas SQL tools are more limited.
