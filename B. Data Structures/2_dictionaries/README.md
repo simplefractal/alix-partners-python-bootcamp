@@ -1,18 +1,16 @@
-1. Create a dictionary called `class_data` with the following keys:
-    - "course_name" ("Introduction to Python")
-    - "student_count" (25)
+1. Create a dictionary called `company` with the following keys:
+    - "name" ("Fortune 500 Company")
+    - "num_employees" (7500)
 
-2. Create a dictionary called `instructor` with the following keys:
-    - "name" ("Henry")
-    - "gender" ("M")
+2. Create a list called `leadership` that contains a dictionary with the following keys:
+    - "title" ("CEO")
+    - "years_experience" (25)
     - "can_program" (True)
 
-3. Add an `instructor` key to the `class_data` dictionary and set it to be the `instructor` dictionary.
+3. Add a `leadership` key (string) to the `company` dictionary and set it to be the `leadership` list (data structure).
 
-4. Get the student count from the dictionary
-
-5. Get the instructor name from the dictionary
-
-6. Delete the gender key under instructor
-
-7. Change the instructor name to "Henry Xie"
+4. Starting from the `company` dictionary:
+    - Get the number of employees
+    - Get the number of leaders
+    - Add a key to the CEO dictionary: "gender" ("F")
+    - Delete the `can_program` key from the CEO dictionary

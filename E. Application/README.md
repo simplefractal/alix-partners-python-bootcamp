@@ -1,15 +1,18 @@
-## Lemonade Accounting
+## Break-even analysis
 
-Write a function that takes as arguments how many lemonades he/she sold and over how many hours. Function should print out how much profit the user made, as well as the user's average hourly income.
+You want to do some break-even analysis for your consultancy.
 
-Assume the following:
+Write a function `compute_breakeven_point` that takes as input:
+ - `fixed_costs`
+ - `unit_cost`
+ - `unit_income`
 
-- It takes 4 lemons to make a lemonade
-- Each lemon costs 50 cents
-- Cost of the lemons is your only expense
-- You're selling each lemonade for 5 dollars
-- When prompted, the user will input valid integer values
+1. Compute the minimum number of consultants that need to be staffed to break even on cost.
+
+2. Introduce an optional argument `num_consultants` that assumes your team size is fixed. Modify your function to work in both cases.
+
+3. If the answer exceeds `num_consultants`, then print an appropriate error message saying that you cannot break even with the current team size.
 
 If stuck, consider the following techinques:
 1. Write down in plain English what you want to do, step by step using comments (prefix each line with `#`)
-2. Perform wishful programming, e.g. `profit = revenue - cost` before defining `revenue` and `cost`.
+2. Perform wishful programming by using variables before you define them.
