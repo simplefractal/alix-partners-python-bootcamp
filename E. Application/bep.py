@@ -16,5 +16,5 @@ def compute_breakeven_point(fixed_costs, unit_cost, unit_income, num_consultants
 
 
 print(compute_breakeven_point(100000, 18000, 25000)) # BEP
-print(compute_breakeven_point(100000, 18000, 25000, num_consultants=100)) # BEP given staff of 8
-print(compute_breakeven_point(100000, 18000, 25000, num_consultants=10)) # BEP given staff of 8
+print(compute_breakeven_point(100000, 18000, 25000, num_consultants=100)) # BEP given staff of 100
+print(compute_breakeven_point(100000, 18000, 25000, num_consultants=10)) # BEP given staff of 10
